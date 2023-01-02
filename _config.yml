@@ -27,6 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MosimanCory
 github_username:  corymosiman12
+disqus:
+  shortname: corymosiman12-github-io
 
 # Build settings
 theme: minima
@@ -37,6 +39,14 @@ titles_from_headings:
   enabled: false
   strip_title: false
   collections: false
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      comments: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
