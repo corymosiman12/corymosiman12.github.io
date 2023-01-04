@@ -24,7 +24,7 @@ email: cory.mosiman12@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Learnings from my exploits in the building science and clean tech space.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://corymosiman12.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MosimanCory
 github_username:  corymosiman12
 disqus:
